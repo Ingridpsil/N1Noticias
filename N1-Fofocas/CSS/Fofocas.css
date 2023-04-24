@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&family=Open+Sans:ital,wght@1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+}
+
+main section{
+    
+    margin: 100px;
+    max-width: 1000px;
+}
+
+h1{
+    background-color: rgb(255, 0, 242);
+    border-bottom: 1px solid black;
+    color: white;
+    margin: 0;
+    padding: 30px 0px 30px 0px;
+    text-align: center;
+}
+
+.ol-navegacao {
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+    background-color:  rgb(250, 64, 241);
+    margin-top: 0;
+    color: white;
+    padding-bottom: 10px;
+}
+.ol-navegacao .política{
+    padding-top: 5px;
+    padding-left: 350px;
+    color: #FFF;
+}
+.ol-navegacao .política .link-politica{
+    color: #fff;
+    text-decoration: none;
+    font-family:'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.ol-navegacao .política .link-politica:hover{
+    color: rgb(183, 0, 0);
+    transition: .4s;
+}
+
+.ol-navegacao .educação{
+    padding-top: 5px;
+    color: #FFF;
+}
+.ol-navegacao .educação .link-educacao{
+    color: #fff;
+    text-decoration: none;
+    font-family:'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.ol-navegacao .educação .link-educacao:hover{
+    color: rgb(69, 116, 177);
+    transition: .4s;
+}
+.ol-navegacao .esporte{
+    padding-top: 5px;
+    padding-right: 350px;
+    color: #FFF;
+}
+.ol-navegacao .esporte .link-esporte{
+    color: #fff;
+    text-decoration: none;
+    font-family:'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.ol-navegacao .esporte .link-esporte:hover{
+    color: #06aa48;
+    transition: .4s;
+}
+
+.link{
+    color: rgb(255, 0, 242);
+    text-decoration: none;
+}
+
+.link:hover{
+    color: rgb(209, 5, 199);
+}
+
+.imagem{
+    float: left;
+    margin-right: 20px;
+    padding-right: 5px;
+}
+
+.clear{
+    clear: both;
+}
+
+hr{
+    width: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.rodape{
+    background-color: rgb(255, 0, 242);
+    border-top: 5px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 8px;
+    text-align: center;
+}
+.copyright{
+    font-size: 10px;
+    margin: 10px;
+}
+
+
+
+
+
+
